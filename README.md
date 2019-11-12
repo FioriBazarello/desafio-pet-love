@@ -1,4 +1,4 @@
-# Teste Pet Lover - Front-end Full-Stack
+# Teste Pet Love - Front-end Full-Stack
 
 ## Back-end
 
@@ -24,7 +24,7 @@ O serviço roda, por padrão, na porta ```3001```.
 
 1. Abra um terminal na raiz do projeto;
 2. Vá para a pasta ```./frontend```; e
-3. Execute ```npm run dev```.
+3. Execute ```npm run start```.
 
 ### Para executar os testes automatizados
 
