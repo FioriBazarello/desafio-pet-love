@@ -1,0 +1,19 @@
+.input input {
+  padding: 10px;
+  border: 1px solid grey;
+  width: calc(100% - 22px);
+}
+
+.input--state-error input {
+  color: red;
+  border-color: red;
+  border-style: solid;
+  margin-bottom: 5px;
+}
+
+.input--state-error p {
+  color: red;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}

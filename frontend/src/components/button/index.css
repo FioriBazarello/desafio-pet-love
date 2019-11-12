@@ -1,0 +1,7 @@
+.button {
+  background-color: #404040;
+  border: 1px solid #404040;
+  color: white;
+  min-width: fit-content;
+  padding: 10px;
+}
