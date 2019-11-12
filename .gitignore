@@ -1,6 +1,7 @@
 # dependencies
 /backend/node_modules
 /frontend/node_modules
+/tests/node_modules
 
 # production
 /backend/dist

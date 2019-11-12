@@ -1,9 +1,9 @@
 import React from 'react';
 import './index.css';
 
-const Button = ({ isLoading, children, onClick }) => {
+const Button = ({ isLoading, children, onClick, ...otherProps }) => {
   return (
-    <button className='button' onClick={onClick}>
+    <button {...otherProps} className='button' onClick={onClick}>
     {
       isLoading
       ? 'Buscando...'

@@ -36,9 +36,9 @@ const App = () => {
       <section>
         <Card id='search-card'>
           <InputMask mask="99999-999" maskChar={null} placeholder='00000-000' value={cep} onChange={handleValueChange}>
-            {(inputProps) => <Input {...inputProps} error={data.error && data.message} />}
+            {(inputProps) => <Input id='search-input' {...inputProps} error={data.error && data.message} />}
           </InputMask>
-          <Button isLoading={isLoading} onClick={handleSearchClick}>Buscar CEP</Button>
+          <Button id='search-submit-button' isLoading={isLoading} onClick={handleSearchClick}>Buscar CEP</Button>
         </Card>
       </section>
       <section>
