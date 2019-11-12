@@ -8,7 +8,7 @@ Teste de avaliação de conhecimento para a vaga de _front-end full-stack_ na em
 
 O _back-end_ utiliza o padrão _MVC_, onde a camada _Controller_ é responsabilizada pela configuração das rotas.
 
-### Para executar o serviço em desenvolvimento local
+### Para executar o serviço local
 
 1. Abra um terminal na raiz do projeto;
 2. Vá para a pasta ```./backend```;
@@ -17,7 +17,7 @@ O _back-end_ utiliza o padrão _MVC_, onde a camada _Controller_ é responsabili
 
 O serviço roda, por padrão, na porta ```3001```.
 
-### Para executar os testes automatizados
+### Para executar os testes unitários
 
 1. Abra um terminal na raiz do projeto;
 2. Vá para a pasta ```./backend```;
@@ -25,7 +25,7 @@ O serviço roda, por padrão, na porta ```3001```.
 
 ## Front-end
 
-### Para executar o serviço em desenvolvimento local
+### Para executar a página local
 
 1. Abra um terminal na raiz do projeto;
 2. Vá para a pasta ```./frontend```;
@@ -34,7 +34,7 @@ O serviço roda, por padrão, na porta ```3001```.
 
 A página estará disponível em ```http://localhost:3000```.
 
-### Para executar os testes automatizados
+### Para executar os testes unitários
 
 1. Abra um terminal na raiz do projeto;
 2. Vá para a pasta ```./frontend```; e
